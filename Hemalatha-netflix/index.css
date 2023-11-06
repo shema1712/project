@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url("https://tickernews.co/wp-content/uploads/2023/02/Netflix-ad-tier-strategy-not-up-to-company-expectations.jpg");
+  height: 100vh;
+  background-position: center;
+  background-size: 100%;
+}
+.maincontainer {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+.header {
+  height: 20%;
+  display: flex;
+}
+.left {
+  width: 38%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  width: 56%;
+  display: flex;
+  justify-content: right;
+  height: fit-content;
+}
+button {
+  font-size: 20px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  margin: 20px;
+  margin-top: 70px;
+  border: red;
+}
+.main {
+  color: white;
+  display: flex;
+  height: 60%;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  
+}
+h1 {
+  font-size: 55px;
+}
+h2{
+  font-size: 38px;
+}
+p{
+  font-size: 20px;
+}
